@@ -1,0 +1,120 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    /* font-size: 16px; */
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.background-home {
+    position: absolute;
+    background-image: url('./img/akro-maniek-bahama-mamas.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    /* z-index: 1; */
+    background-color: black;
+}
+
+.border-info {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 25px 25px 25px 25px;
+    width: 60vw;
+    padding: 10px;
+    color: white;
+}
+
+.logo > img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+}
+.title {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+.info-create-web {
+    bottom: 0;
+    right: 0;
+    color: white;
+    cursor: default;
+    padding: 5px;
+    transition: ease-out 1s;
+}
+.info-create-web > span {
+    color: aquamarine;
+}
+.info-create-web:hover {
+    color: rgb(25, 232, 232);
+    transition: ease-in 0.25s;
+}
+.info-create-web > a {
+    color: black;
+}
+.join-royalerp button {
+    background-color:transparent;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    transition: ease-in 0.25s;
+}
+.join-royalerp button:hover {
+    background-color: #18ab29;
+    transition: ease-out 0.25s;
+}
+.join-royalerp button:active {
+    position:relative;
+	top:1px;
+}
+#zegar {
+    position: absolute;
+    width: 100vw;
+    height: 10vh;
+    bottom: 0;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
+    font-size: 5vh;
+    text-align: center;
+    cursor: default;
+}
+
+@media screen and (max-width: 800px) {
+    .description h3 {
+        font-size: 20px;
+    }
+    .description h6 {
+        font-size: 10px;
+    }
+}
+
+/* @keyframes animate {
+    0% {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    50% {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+} */
